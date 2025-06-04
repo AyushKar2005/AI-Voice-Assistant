@@ -5,12 +5,6 @@ import datetime
 from dotenv import dotenv_values
 import os
 
-import yfinance as yf
-
-def get_stock_price(ticker):
-    stock = yf.Ticker(ticker)
-    price = stock.info.get('regularMarketPrice')
-    return f"The current stock price of {ticker.upper()} is ${price}" if price else "Stock price not available."
 
 
 env_path = os.path.join(os.path.dirname(__file__), "..", ".env")

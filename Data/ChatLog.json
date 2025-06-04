@@ -238,5 +238,13 @@
     {
         "role": "assistant",
         "content": "I can help you with that! Based on the search results, it appears that \"SS Cricket Score\" could be related to a cricket match or tournament score. Would you like me to provide more information or explore the search results further?"
+    },
+    {
+        "role": "user",
+        "content": "Hello."
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Ayush!"
     }
 ]
